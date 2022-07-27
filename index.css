@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  /* display:list-item; */
+  font-family: "Overpass", sans-serif;
+  width: 100%;
+
+  justify-content: end;
+  border-top: 1px solid #f4a261;
+  border-bottom: 1px solid #f4a261;
+  color: #1d3557;
+}
+
+.inicio:hover {
+  color: #e63946;
+  cursor: pointer;
+}
+
+.servicio:hover {
+  color: #e63946;
+  cursor: pointer;
+}
+
+.cliente:hover {
+  color: #e63946;
+  cursor: pointer;
+}
+.contacto:hover {
+  color: #e63946;
+  cursor: pointer;
+}
+.bar {
+  margin-right: 30px;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.42);
+}
+
+.image {
+  position: fixed;
+  height: 40px;
+  top: 18px;
+  left: 12px;
+}
