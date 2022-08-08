@@ -33,6 +33,7 @@ body {
   border: 4px solid #17A398;
   border-radius: 10px;
   background-color: black;
+  cursor: pointer;
 }
 .inicio {
   box-shadow: 2px 4px 49px 7px rgba(0, 0, 0, 0.66);
@@ -63,13 +64,14 @@ body {
 }
 
 .segundabarra{
-  margin-top: 75px;
+  margin-top: 78px;
   display: flex;
-  color: white;
+  color:black;
   justify-content: space-between;
   background-color: darkgrey;
   font-family: 'Comfortaa', cursive;
-  font-size:0.85rem;
+  font-size:0.80rem;
+  cursor: pointer;
 
 }
 .sub_barra{
@@ -101,3 +103,4 @@ background-image: url(/imagenes/pcb_manufacture_bg.jpg);
   width: 60%;
   margin-left: 40px;
 }
+
