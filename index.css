@@ -1,41 +1,103 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 220vh;
+  margin: 0%;
+  background-image: url(/imagenes/111.jpg);
+}
 .header {
   display: flex;
-  /* display:list-item; */
-  font-family: "Overpass", sans-serif;
+  background-color: #33312E;
+  height: 12%;
   width: 100%;
-
-  justify-content: end;
-  border-top: 1px solid #f4a261;
-  border-bottom: 1px solid #f4a261;
-  color: #1d3557;
-}
-
-.inicio:hover {
-  color: #e63946;
-  cursor: pointer;
-}
-
-.servicio:hover {
-  color: #e63946;
-  cursor: pointer;
-}
-
-.cliente:hover {
-  color: #e63946;
-  cursor: pointer;
-}
-.contacto:hover {
-  color: #e63946;
-  cursor: pointer;
-}
-.bar {
-  margin-right: 30px;
-  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.42);
-}
-
-.image {
+  justify-content: space-around;
+  align-items: center;
   position: fixed;
+}
+
+.barra {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  font-family: "Roboto";
+  font-weight: 800;
+  color: white;
+  
+}
+
+.barra h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border: 4px solid #17A398;
+  border-radius: 10px;
+  background-color: black;
+}
+.inicio {
+  box-shadow: 2px 4px 49px 7px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: 2px 4px 49px 7px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 2px 4px 49px 7px rgba(0, 0, 0, 0.66);
+  width: 110px;
   height: 40px;
-  top: 18px;
-  left: 12px;
+}
+.imagen {
+  height: 100%;
+}
+
+.titulo {
+  display: flex;
+  font-size: 1em;
+  font-family: "Kanit";
+  font-weight: 900;
+  color: white;
+  font-size: xx-large;
+  font-size: 1.5em;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.inicio:hover{
+  border:2px solid white;
+    padding: 4px;
+}
+
+.segundabarra{
+  margin-top: 75px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  background-color: darkgrey;
+  font-family: 'Comfortaa', cursive;
+  font-size:0.85rem;
+
+}
+.sub_barra{
+  margin:5px;
+}
+
+.pcb{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+color: white;
+width: 100%;
+height: 25%;
+background-image: url(/imagenes/pcb_manufacture_bg.jpg);
+
+}
+
+.texto_encima {
+  font-family: 'Comfortaa', cursive;
+  width: 50%;
+  margin-left: 40px;
+  
+
+}
+
+.parrafo{
+
+  font-family: 'Comfortaa', cursive;
+  width: 60%;
+  margin-left: 40px;
 }
