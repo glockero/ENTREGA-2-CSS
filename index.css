@@ -104,3 +104,30 @@ background-image: url(/imagenes/pcb_manufacture_bg.jpg);
   margin-left: 40px;
 }
 
+@media (max-width:500px) {
+  .imagen {
+    display: none;
+      
+  }
+}
+
+@media (max-width:600px) {
+  .titulo {
+    display:none;
+      
+  }
+}
+
+@media (max-width:600px) {
+  .header {
+    width: 600px;
+      
+  }
+}
+
+@media (max-width:600px) {
+  body {
+    width: 600px;
+      
+  }
+}
