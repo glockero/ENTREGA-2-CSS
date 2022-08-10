@@ -1,9 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
   display: flex;
   flex-direction: column;
   height: 220vh;
   margin: 0%;
-  background-image: url(/imagenes/111.jpg);
+  /* background-image: url(/imagenes/111.jpg); */
 }
 .header {
   display: flex;
@@ -17,11 +24,12 @@ body {
 
 .barra {
   display: flex;
+  gap: 20px;
   justify-content: flex-end;
   align-content: center;
   font-family: "Roboto";
-  font-weight: 800;
   color: white;
+  
   
 }
 
@@ -29,7 +37,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px;
   border: 4px solid #17A398;
   border-radius: 10px;
   background-color: black;
@@ -64,7 +71,7 @@ body {
 }
 
 .segundabarra{
-  margin-top: 78px;
+  margin-top: 70px;
   display: flex;
   color:black;
   justify-content: space-between;
@@ -72,11 +79,10 @@ body {
   font-family: 'Comfortaa', cursive;
   font-size:0.80rem;
   cursor: pointer;
+  padding: 10px;
 
 }
-.sub_barra{
-  margin:5px;
-}
+
 
 .pcb{
   display: flex;
@@ -104,6 +110,14 @@ background-image: url(/imagenes/pcb_manufacture_bg.jpg);
   margin-left: 40px;
 }
 
+
+@media (max-width:500px){
+  body{
+    width: 500px;
+  }
+}
+
+
 @media (max-width:500px) {
   .imagen {
     display: none;
@@ -111,23 +125,31 @@ background-image: url(/imagenes/pcb_manufacture_bg.jpg);
   }
 }
 
-@media (max-width:600px) {
-  .titulo {
-    display:none;
-      
-  }
-}
-
-@media (max-width:600px) {
+@media (max-width:500px) {
   .header {
-    width: 600px;
+    width: 500px;
+    flex-direction: column;
+  }
+} 
+
+@media (max-width:500px) {
+  .titulo {
+    font-size: 1em;
       
   }
 }
 
-@media (max-width:600px) {
-  body {
-    width: 600px;
+@media (max-width:500px) {
+  .barra {
+    width: 500px;
+    font-size: 10px;
       
   }
 }
+
+@media (max-width:500px){
+  .segundabarra{
+    display: none;
+  }
+}
+  
