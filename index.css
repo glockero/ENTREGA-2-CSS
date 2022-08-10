@@ -141,7 +141,7 @@ background-image: url(/imagenes/pcb_manufacture_bg.jpg);
 
 @media (max-width:500px) {
   .barra {
-    width: 500px;
+    width: 300px;
     font-size: 10px;
       
   }
